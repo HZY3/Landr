@@ -5,7 +5,6 @@
     flex-direction: column;
     align-items: center;
 
-
 }
 
 .no-margin-sticky{
@@ -15,12 +14,11 @@
 
 .Main-title{
     font-weight: 600;
+    width: 60%;
     font-size: 80px;
     word-spacing: -15.2px;
     letter-spacing: -4.5px;
-    padding-top: 5px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding: 5px 0 0 0;
 }
 
 .Top-Main-title{
@@ -34,6 +32,7 @@
     font-weight: 300;
     font-size: 25px;
     word-spacing: -0.2em;
-    padding: 10px 560px;
+    /* padding: 10px 560px 0px 560px; */
+    width: 45%;
     line-height: 33px;
 }
