@@ -1,0 +1,39 @@
+.Navbar-HomeContent{
+    text-align: center;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.no-margin-sticky{
+    margin: 0px;
+    padding: 10px 400px;
+}
+
+.Main-title{
+    font-weight: 600;
+    font-size: 80px;
+    word-spacing: -15.2px;
+    letter-spacing: -4.5px;
+    padding-top: 5px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.Top-Main-title{
+    font-weight: 300;
+    font-size: 25px;
+    word-spacing: -0.2em;
+    padding-bottom: 0px;
+}
+
+.Home-Intro{
+    font-weight: 300;
+    font-size: 25px;
+    word-spacing: -0.2em;
+    padding: 10px 560px;
+    line-height: 33px;
+}
