@@ -1,10 +1,7 @@
-import { useState } from 'react'
 import React from 'react'
 import './App.css'
-import ReactDOM from 'react-dom'
 import logo from './assets/logo.jpg'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-// import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
+import {Link } from 'react-router-dom'
 
 
 function Navbar() {
@@ -24,19 +21,20 @@ function Navbar() {
                 <img src= { logo } />
                 <div className='Nav-MiddleMenu'>
                     <li id='Nav-Home'>
-                        <Link to='/'>Home</Link>
+                        <Link to='/' className='No-Underline'>Home</Link>
                     </li>
-                    <li>
-                        <a href= "google.com">Why Blockchain?</a>
+                    <li id='Nav-Why'>
+                        <a href= "" className='No-Underline'>Why Blockchain?</a>
                     </li>
                     <li id='Nav-About'>
-                        <a href= "google.com">About</a>
+                        <a href= "" className='No-Underline'>About</a>
                     </li>
                 </div>
                     <li id='Nav-LogIn'>
-                    <>
-                        <Link to='/login'>Login</Link>
-                    </>
+                    <button id='Main-Login-Btn'>
+                        <Link to='/login' className='Main-Login-Btn'>Login / Signup</Link>
+                    </button>
+                    {/* <Link to='/login' className='No-Underline'>Login / Signup</Link> */}
                     </li>
             </ul>
 
