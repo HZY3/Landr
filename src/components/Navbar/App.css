@@ -50,7 +50,7 @@ a:visited, a, a:link, a:hover, a:active, a:focus{
   letter-spacing: 0.025em;
   transition: opacity .125s linear;
   list-style-type:  none;
-  opacity: 100%;
+  opacity: 90%;
   box-shadow: 0px 2px 5px #00072d;
   background-color: #00072d;
 
