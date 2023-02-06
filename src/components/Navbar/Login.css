@@ -26,6 +26,8 @@ p{
     font: inherit;
     padding: 10px 40px;
     margin: 30px;
+    /* border: 0px solid #00072d; */
+    box-shadow: 0px 0px 0em #00072d;
 }
 
 
@@ -36,4 +38,8 @@ p{
     height: 170px;
     object-fit: cover;
     border-radius: 30px;
+
 }
+
+
+

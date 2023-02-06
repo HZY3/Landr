@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import logo from './assets/logo.jpg'
-import {Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 function Navbar() {
@@ -17,7 +17,7 @@ function Navbar() {
 
             </head>
         
-            <ul className="Nav-Menu">
+            <ul className="Nav-Menu font-change">
                 <img src= { logo } />
                 <div className='Nav-MiddleMenu'>
                     <li id='Nav-Home'>
@@ -27,12 +27,12 @@ function Navbar() {
                         <a href= "" className='No-Underline'>Why Blockchain?</a>
                     </li>
                     <li id='Nav-About'>
-                        <a href= "" className='No-Underline'>About</a>
+                        <Link to='/loginselector' className='No-Underline'>About</Link>
                     </li>
                 </div>
                     <li id='Nav-LogIn'>
-                    <button id='Main-Login-Btn'>
-                        <Link to='/login' className='Main-Login-Btn'>Login / Signup</Link>
+                    <button className='Main-Login-Btn-Outer'>
+                        <Link to='/login' className='Main-Login-Btn-Inner '>Login / Signup</Link>
                     </button>
                     {/* <Link to='/login' className='No-Underline'>Login / Signup</Link> */}
                     </li>
